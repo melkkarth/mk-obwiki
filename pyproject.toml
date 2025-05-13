@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mkdocs-callouts"
+name = "mk-obwiki"
 version = "0.1.0"
 keywords = ["mkdocs", "mkdocs-plugin", "markdown", "obsidian"]
 description = "A simple plugin that converts Obsidian style markdowns into mkdocs."
