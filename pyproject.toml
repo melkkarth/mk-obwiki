@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mkdocs-callouts"
+version = "0.1.0"
+keywords = ["mkdocs", "mkdocs-plugin", "markdown", "obsidian"]
+description = "A simple plugin that converts Obsidian style markdowns into mkdocs."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "melkkarth", email = "cervantes_0@hotmail.com" }]
+license = { text = "MIT" }
+
+dependencies = [
+    "mkdocs>=1"
+]
+
+[project.entry-points."mkdocs.plugins"]
+obwiki = "mk_obwiki.plugin:ObWikiPlugin"
