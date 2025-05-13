@@ -26,7 +26,7 @@ class ObWikiParser():
         """
         # Convert markdown line by line, then return it
         new_markdown = []
-        for line in markdown.split():
+        for line in markdown.splitlines():
             if re.search(self.CODE_BLOCK_RE, line):
                 new_line = self._code_block(line)
             elif re.search(self.HEADING_RE, line):
