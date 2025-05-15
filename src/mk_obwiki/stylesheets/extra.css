@@ -1,0 +1,30 @@
+.nav-icon {
+  display: inline-flex;
+  align-items: center;
+  color: #e0e0e0;
+  margin-right: 0.3em;
+}
+
+/* Hide Icon from Header */
+h1 .nav-icon {
+  display: none;
+}
+
+/* Stroke-based icons (like Lucide) */
+svg.stroke-icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  stroke: currentColor;
+  fill: none;
+}
+
+/* Fill-based icons (like FontAwesome solid) */
+svg.fill-icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  fill: currentColor;
+  stroke: none;
+}
+
