@@ -1,4 +1,5 @@
 from setuptools import setup
+from setuptools import find_packages
 
 # Fake reference so GitHub still considers it a real package.
 setup(
